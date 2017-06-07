@@ -29,4 +29,6 @@ group :development do
   # Use Capistrano for deployment
   gem 'capistrano', "~> 3.8"
   gem 'capistrano-rails', '~> 1.2'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-passenger'
 end
